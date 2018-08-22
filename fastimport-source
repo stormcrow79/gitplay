@@ -1,34 +1,35 @@
 blob
-mark: 10001
-data 5
+mark :10001
+data 6
 DATA1
+
 blob
-mark: 10002
-data 5
+mark :10002
+data 6
 DATA2
+
 blob
-mark: 10003
-data 5
+mark :10003
+data 6
 DATA3
+
 commit refs/heads/master
 committer Gavin Morris <gavin@hak.local> 1534943837 +0800
 data 8
 COMMENT1
 from refs/heads/master~0
-M 100644 :10001 /data1.dat
+M 100644 :10001 data1.dat
 
 commit refs/heads/master
 committer Gavin Morris <gavin@hak.local> 1534943847 +0800
 data 8
 COMMENT2
-from refs/heads/master~0
-M 100644 :10002 /data2.dat
+M 100644 :10002 data2.dat
 
 commit refs/heads/master
 committer Gavin Morris <gavin@hak.local> 1534943857 +0800
 data 8
 COMMENT3
-from refs/heads/master~0
-M 100644 :10003 /data3.dat
+M 100644 :10003 data3.dat
 
 done
